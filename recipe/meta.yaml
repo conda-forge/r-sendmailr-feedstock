@@ -1,4 +1,4 @@
-{% set version = "1.3-2" %}
+{% set version = "1.4-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sendmailR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sendmailR/sendmailR_{{ version }}.tar.gz
-  sha256: cab5e72e9349c470e7eadd632b154df4c9cb26631dff8dccbcb12354e1efdd7b
+  sha256: 5b8b91fc13f6b07b9fc5a2cf7591cf760fad47c5ea17d87a2891898c506454ad
 
 build:
   merge_build_host: true  # [win]
