@@ -1,11 +1,11 @@
-About r-sendmailr
-=================
+About r-sendmailr-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sendmailr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=sendmailR
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sendmailr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package contains a simple SMTP client which provides a portable solution for sending email, including attachment, from within R.
 
