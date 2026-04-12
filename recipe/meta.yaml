@@ -1,4 +1,4 @@
-{% set version = "1.4-0" %}
+{% set version = "1.4-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sendmailR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sendmailR/sendmailR_{{ version }}.tar.gz
-  sha256: 5b8b91fc13f6b07b9fc5a2cf7591cf760fad47c5ea17d87a2891898c506454ad
+  sha256: 2b58147695497d1fbcacff8407b4bb9537362ff452406a2270460e3b930afdd1
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
