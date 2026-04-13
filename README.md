@@ -7,7 +7,9 @@ Home: https://CRAN.R-project.org/package=sendmailR
 
 Package license: GPL-2.0-only
 
-Summary: Package contains a simple SMTP client which provides a portable solution for sending email, including attachment, from within R.
+Summary: Package contains a simple SMTP client with minimal dependencies which provides a portable solution for sending email, including file attachments and inline html reports, from within R. SMTP Authentication and SSL/STARTTLS is implemented using curl.
+
+Development: https://github.com/olafmersmann/sendmailR
 
 Current build status
 ====================
